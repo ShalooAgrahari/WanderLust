@@ -1,0 +1,23 @@
+/* cards */
+.listing-card {
+    border: none;
+    margin-bottom: 2rem;
+}
+.card-img-top {
+    border-radius: 1rem;
+}
+.card-body {
+    padding: 0;
+}
+.listing-link {
+    text-decoration: none;
+    width: fit-content;
+}
+/* card effect */
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
